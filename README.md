@@ -1,4 +1,4 @@
-# 🌐 Helmut's Portfolio Website
+# 🌐 Personal Frontend Portfolio Website
 
 [![Portfolio Live](https://img.shields.io/badge/Live-Website-brightgreen?style=for-the-badge&logo=vercel)](https://hsirait77.github.io)
 
@@ -7,15 +7,21 @@ This is the source code repository for the portfolio website that I designed and
 
 ---
 
-## 📸 Tampilan Website
+## 📸 Website appearance and Wireframe
 
-| 🖥️ Desktop View | 📱 Mobile View |
-| :---: | :---: |
-| ![Desktop Screenshot](https://github.com/hsirait77/images/blob/master/sc-desktop.PNG?raw=true) | ![Mobile Screenshot](https://github.com/hsirait77/images/blob/master/sc-mobile.PNG?raw=true) |
+### 🖥️ Desktop View 
+
+![Desktop Screenshot](https://github.com/hsirait77/images/blob/master/sc-desktop.PNG?raw=true) 
+
+### 📱 Mobile View
+![Mobile Screenshot](https://github.com/hsirait77/images/blob/master/sc-mobile.PNG?raw=true)
+
+### 📱 Wireframe
+![Wireframe](https://github.com/hsirait77/images/blob/master/wireframe.png?raw=true)
 
 ---
 
-## ✨ Fitur Utama
+## ✨ Key Features
 
 * **Responsive Design:** Optimized for mobile devices, tablets, and desktop monitors.
 * **Interactive Contact Form:** Using EmailJS so that visitor messages go directly to my email.
@@ -24,15 +30,14 @@ This is the source code repository for the portfolio website that I designed and
 
 ---
 
-## 🛠️ Tech Stack (Teknologi yang Digunakan)
+## 🛠️ Tech Stack (Technology Used)
 
 *   **Languages:** HTML5, CSS3, JavaScript (ES6+)
 *   **Styling:** CSS Native
 *   **Interactivity:** Vanilla JavaScript 
 *   **Deployment:** Github Pages
-*   **Wireframe:** balsamiq
-
-
+*   **Rough Sketch (Low-Fidelity Wireframe):** balsamiq wireframe
+     **Deployment:** Github Pages
 ---
 
 ## 📬 Contact
