@@ -10,7 +10,9 @@
     <meta name="robots" content="noindex,nofollow">
      <meta property="og:title" content="Helmut Sirait | Frontend Web Developer Portfolio">
     <meta property="og:description" content="Transforming creative designs into precise code. Specializing in creating interactive, responsive, fast, and user-friendly web interfaces">
-  <title>Helmut Sirait</title>
+  <title>Helmut Sirait | Frontend Web Developer</title>
+  <!-- Favicon Link -->
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
   <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="stylesheet" href="./assets/icons/icon/remixicon.css">
 </head>
@@ -187,13 +189,19 @@
           </svg>
         </div>
       </div>
+      
       <div class="about-row">
-        <h2>ABOUT - HELMUT SIRAIT</h2>
         <div class="about-content">
+        <h2>ABOUT - HELMUT SIRAIT</h2>
           <p>I am a Frontend Developer who loves building clean, beautiful, and user-friendly websites. I enjoy turning complex designs into responsive code that works seamlessly on any screen.</p>
           <p>My main tools are HTML, CSS, JavaScript, and React. I focus on writing clean code, optimizing performance, and ensuring a great user experience. I'm always eager to learn new technologies and take on fresh challenges.</p>
         </div>
+         <div class="hero-about">
+              <img src="./assets/images/image-about.webp" alt="Helmut Sirait">
+         </div>
       </div>
+
+
       <div class="wave-wrapper">
         <div class="custom-shape-divider-bottom-1782819763">
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -201,35 +209,60 @@
           </svg>
         </div>
       </div>
+
+
+
     </section>
     <!-- Contact -->
     <section class="contact" id="contact">
       <div class="contact-row">
         <h2>Let's Discuss Projects</h2>
         <div class="contact-content">
-          <form class="contact-form">
+          <form class="contact-form" id="emailForm">
             <div class="form-group">
               <label for="name">First Name</label>
-              <input type="text" name="name" id="name" placeholder="Name *" required class="form-input">
+              <input type="text" name="name" id="name" placeholder="Name *" class="form-input">
+              <div class="error-message" id="name-error">
+Name is required.</div>
             </div>
             <div class="form-group">
               <label for="name">Your Email</label>
-              <input type="email" name="email" id="email" placeholder="Email *" required class="form-input">
+              <input type="email" name="email" id="email" placeholder="Email *"  class="form-input">
+             <div class="error-message" id="email-error">Invalid email</div>
             </div>
+
+            <!-- PROTEKSI HONEYPOT (Tersembunyi dari manusia) -->
+  <div class="visual-hidden-field" aria-hidden="true">
+    <label for="company_phone">Leave this field blank</label>
+    <input type="text" name="company_phone" id="company_phone" autocomplete="off" tabindex="-1">
+  </div>
             <div class="form-group">
               <label for="name">Subject</label>
-              <input type="text" name="subject" id="subject" placeholder="Subject *" required class="form-input">
+              <input type="text" name="subject" id="subject" placeholder="Subject *" class="form-input">
+              <div class="error-message" id="subject-error">Subject is required.</div>
             </div>
 
             <div class="form-group">
               <label for="name">Your message</label>
-              <textarea class="form-input form-textarea" rows="5" placeholder="Your message *" required class="form-input"></textarea>
+              <textarea class="form-input form-textarea" rows="5" placeholder="Your message *" class="form-input" id="message"></textarea>
+              <div class="error-message" id="message-error">The message cannot be empty.
+</div>
             </div>
-            <button type="submit" class="btn-contact">
+            <button type="submit" class="btn-contact" id="btnSubmit">
               <span>Send Message</span>
               <i class="ri-send-plane-line" aria-hidden="true"></i>
             </button>
+
+
           </form>
+   <div class="modal-overlay" id="successModal">
+    <div class="modal-content">
+      <h3><i class="ri-mail-send-line"></i> Message </h3>
+      <p id="modalMessage">Message Here</p>
+    </div>
+  </div>
+
+
 
         </div>
       </div>
@@ -252,6 +285,8 @@
 
   </footer>
 
+  
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script src="./assets/script/script.js"></script>
 </body>
 </html>

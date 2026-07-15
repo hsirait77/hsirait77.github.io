@@ -1,9 +1,9 @@
-# 🌐 Personal Frontend Portfolio Website
+# 🌐 Helmut's Portfolio Website
 
-[![Portfolio Live](https://img.shields.io/badge/Live-Website-brightgreen?style=for-the-badge&logo=vercel)](https://[domain-portfolio-anda].com)
+[![Portfolio Live](https://img.shields.io/badge/Live-Website-brightgreen?style=for-the-badge&logo=vercel)](https://hsirait77.github.io)
 
 
-Ini adalah repositori kode sumber untuk website portfolio profesional saya. Website ini dirancang untuk menampilkan keahlian coding, proyek-proyek *frontend* terbaik yang pernah saya buat, serta resume digital saya.
+This is the source code repository for the portfolio website that I designed and built, the appearance of which is inspired by the game gta v. This website also displays my coding skills, the best *frontend* projects that I have ever made, as well as my digital resume.
 
 ---
 
@@ -11,16 +11,16 @@ Ini adalah repositori kode sumber untuk website portfolio profesional saya. Webs
 
 | 🖥️ Desktop View | 📱 Mobile View |
 | :---: | :---: |
-| ![Desktop Screenshot](https://via.placeholder.com/800x450) | ![Mobile Screenshot](https://via.placeholder.com/250x450) |
+| ![Desktop Screenshot](https://github.com/hsirait77/images/blob/master/sc-desktop.PNG?raw=true) | ![Mobile Screenshot](https://github.com/hsirait77/images/blob/master/sc-mobile.PNG?raw=true) |
 
 ---
 
 ## ✨ Fitur Utama
 
-* **Desain Responsif:** Dioptimalkan untuk perangkat mobile, tablet, hingga monitor desktop.
-* **Form Kontak Interaktif:** Menggunakan [EmailJS / Formspree / Web3Forms] sehingga pesan pengunjung langsung masuk ke email saya.
-* **Animasi Interaktif:** Transisi elemen yang halus menggunakan [Framer Motion / AOS / GSAP].
-* **Performa Tinggi:** Dioptimalkan untuk SEO, kecepatan akses (*Fast Loading*), dan aksesibilitas (A11y).
+* **Responsive Design:** Optimized for mobile devices, tablets, and desktop monitors.
+* **Interactive Contact Form:** Using EmailJS so that visitor messages go directly to my email.
+* **Interactive Animation:** Smooth element transitions when the navbar is clicked, created using native javascript.
+* **High Performance::** Optimized for SEO, access speed (*Fast Loading*), and accessibility (A11y).
 
 ---
 
@@ -30,6 +30,8 @@ Ini adalah repositori kode sumber untuk website portfolio profesional saya. Webs
 *   **Styling:** CSS Native
 *   **Interactivity:** Vanilla JavaScript 
 *   **Deployment:** Github Pages
+*   **Wireframe:** balsamiq
+
 
 ---
 
@@ -37,14 +39,14 @@ Ini adalah repositori kode sumber untuk website portfolio profesional saya. Webs
 If you are interested in working together or have any questions, please contact me via:
 *   **Email:** helmutsirait77@gmail.com
 *   **LinkedIn:** [linkedin.com/in/Helmut Sirait](https://linkedin.com/in/helmutsirait77)
-*   **Instagram:** [_hsirait7](https://instagram.com/_hsirait7)
+*   **Instagram:** [hsirait7](https://instagram.com/hsirait7)
 
 ---
 
 ## 🎨 Credit & Asset Attribution
 Visual assets used in this project are sourced from:
 *   **Icon:** [Remix Icon](https://remixicon.com/)
-*   **Images/Photos:** [Gemini](https://unsplash.com/)
-*   **Fonts:** [Space Grotesk](https://github.com/floriankarsten/space-grotesk) & [Luckiest Guy](https://fonts.google.com/specimen/Luckiest+Guy?query=Astigmatic&preview.script=Latn)
+*   **Images/Photos:** [Gemini](https://gemini.google.com/app)
+*   **Fonts:** [Pricedown](https://www.fontsquirrel.com/fonts/pricedown) & [Poppins](https://www.fontsquirrel.com/fonts/poppins)
 
 
